@@ -1,3 +1,5 @@
+package Console.Estruturada;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -31,49 +33,42 @@ public class DadosRPG {
 
 
     static void fourSidedDie () {
-
         Random rollDice = new Random();
         int roll = rollDice.nextInt(4) + 1;
         System.out.println("O resultado da rolagem foi " + roll);
     }
 
     static void sixSidedDie () {
-
         Random rollDice = new Random();
         int roll = rollDice.nextInt(6) + 1;
         System.out.println("O resultado da rolagem foi " + roll);
     }
 
     static void eightSidedDie () {
-
         Random rollDice = new Random();
         int roll = rollDice.nextInt(8) + 1;
         System.out.println("O resultado da rolagem foi " + roll);
     }
 
     static void tenSidedDie () {
-
         Random rollDice = new Random();
         int roll = rollDice.nextInt(10) + 1;
         System.out.println("O resultado da rolagem foi " + roll);
     }
 
     static void twelveSidedDie () {
-
         Random rollDice = new Random();
         int roll = rollDice.nextInt(12) + 1;
         System.out.println("O resultado da rolagem foi " + roll);
     }
 
     static void twentySidedDie () {
-
         Random rollDice = new Random();
         int roll = rollDice.nextInt(20) + 1;
         System.out.println("O resultado da rolagem foi " + roll);
     }
 
     static void oneHundredSidedDie () {
-
         Random rollDice = new Random();
         int roll = rollDice.nextInt(100) + 1;
         System.out.println("O resultado da rolagem foi " + roll);
